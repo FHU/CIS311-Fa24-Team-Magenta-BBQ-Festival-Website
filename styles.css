@@ -13,6 +13,8 @@ body {
     background-color: rgb(171, 171, 171);
 }
 
+/* Navigation */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,6 +27,19 @@ nav {
 .menu-elements {
     display: flex;
 }
+
+/* Schedule Page */
+
+.schedule {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fri-performers, .sat-performers {
+    display: flex;
+}
+
+/* Footer */
 
 footer {
     display: flex;
