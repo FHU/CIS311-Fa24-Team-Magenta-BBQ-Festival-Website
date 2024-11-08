@@ -1,7 +1,14 @@
+:root {
+    --main-orange: #723435;
+    --main-cream: #FFEBE2;
+    --main-gray: #2A2A2A;
+  }  
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Hepta Slab", serif;
 }
 
 html {
@@ -10,18 +17,21 @@ html {
 
 body {
     height: 100%;
-    background-color: rgb(171, 171, 171);
+    background-color: white;
 }
 
 /* Navigation */
 
 nav {
+    background-color: var(--main-cream);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .title-and-logo {
     display: flex;
+    align-items: center;
 }
 
 .menu-elements {
