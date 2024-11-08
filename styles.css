@@ -4,6 +4,25 @@
     --main-gray: #2A2A2A;
   }  
 
+/* Global Properties*/
+cream-text {
+    color: var(--main-cream);
+}
+
+orange-text {
+    color: var(--main-orange);
+}
+
+gray-text {
+    color: var(--gray);
+}
+
+black-text {
+    color: var(--black);
+}
+
+/*Other Properties*/
+
 * {
     box-sizing: border-box;
     margin: 0;
