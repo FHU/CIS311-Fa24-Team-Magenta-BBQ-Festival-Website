@@ -5,19 +5,19 @@
   }  
 
 /* Global Properties*/
-cream-text {
+.cream-text {
     color: var(--main-cream);
 }
 
-orange-text {
+.orange-text {
     color: var(--main-orange);
 }
 
-gray-text {
+.gray-text {
     color: var(--gray);
 }
 
-black-text {
+.black-text {
     color: var(--black);
 }
 
