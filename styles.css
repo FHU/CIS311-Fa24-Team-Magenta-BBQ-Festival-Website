@@ -5,6 +5,10 @@
   }  
 
 /* Global Properties*/
+.underline {
+    text-decoration: underline;
+}
+
 .cream-text {
     color: var(--main-cream);
 }
@@ -13,12 +17,20 @@
     color: var(--main-orange);
 }
 
+.orange-background {
+    background-color: var(--main-orange);
+}
+
 .gray-text {
-    color: var(--gray);
+    color: var(--main-gray);
+}
+
+.white-text {
+    color: white;
 }
 
 .black-text {
-    color: var(--black);
+    color: black;
 }
 
 /*Other Properties*/
