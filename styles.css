@@ -181,6 +181,24 @@ nav a p {
     width: 50%;
 }
 
+/* Contact Page */
+.contact-us {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    font-size: 24px;
+}
+
+.contact-us-title, .location-title {
+    font-size: 80px;
+    font-weight: 500;
+}
+
 /* Footer */
 
 footer {
