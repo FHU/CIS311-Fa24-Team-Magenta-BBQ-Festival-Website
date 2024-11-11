@@ -73,6 +73,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 
 .title-and-logo {
@@ -93,14 +94,20 @@ nav {
 
 .menu-elements {
     display: flex;
-    width: 30rem;
-    justify-content: space-around;
-    font-size: 22px;
+    width: 32rem;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+nav a p {
+    font-weight: 500;
 }
 
 /* Schedule Page */
 .schedule-title {
     font-size: 80px;
+    font-weight: 500;
+    margin: 2rem;
 }
 
 .schedule {
@@ -134,10 +141,16 @@ nav {
 
 .right-schedule {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .right-schedule ul {
     padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .right-schedule ul li {
@@ -150,10 +163,15 @@ nav {
     justify-content: start;
 }
 
+.fri-performers ul li p, .sat-performers ul li p {
+    width: 50%;
+}
+
 /* Footer */
 
 footer {
     background: var(--main-orange);
+    padding: 1rem;
     color: white;
     display: flex;
     justify-content: space-between;
