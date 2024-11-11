@@ -181,6 +181,19 @@ nav a p {
     width: 50%;
 }
 
+/* Registration Page */
+.registration-cont {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.registration-cont div {
+    background-color: var(--main-orange);
+    color: white;
+    padding: 2rem;
+}
+
 /* Contact Page */
 .contact-us {
     display: flex;
