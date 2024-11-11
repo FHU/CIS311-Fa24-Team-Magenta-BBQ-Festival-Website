@@ -58,6 +58,7 @@ main {
 
 li::marker {
     color: var(--main-orange);
+    font-size: 3rem;
   }
 
 a {
@@ -94,6 +95,7 @@ nav {
     display: flex;
     width: 30rem;
     justify-content: space-around;
+    font-size: 22px;
 }
 
 /* Schedule Page */
