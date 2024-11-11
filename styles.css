@@ -1,5 +1,6 @@
 :root {
     --main-orange: #723435;
+    --secondary-orange: #D65F30;
     --main-cream: #FFEBE2;
     --main-gray: #2A2A2A;
   }  
@@ -103,6 +104,13 @@ nav a p {
     font-weight: 500;
 }
 
+/*Lower Navigation*/
+.lower-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
 /* Schedule Page */
 .schedule-title {
     font-size: 80px;
@@ -116,7 +124,7 @@ nav a p {
 }
 
 .left-schedule {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
@@ -140,10 +148,15 @@ nav a p {
 }
 
 .right-schedule {
-    width: 30%;
+    width: 20%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
+}
+
+.right-schedule div {
+    padding: 1rem;
 }
 
 .right-schedule ul {
@@ -155,6 +168,7 @@ nav a p {
 
 .right-schedule ul li {
     font-size: 16px;
+    width: 300px;
 }
 
 .fri-performers ul li, .sat-performers ul li, .weather ul li, .parking ul li {
