@@ -132,12 +132,10 @@ nav {
     font-size: 16px;
 }
 
-.fri-performers, .sat-performers {
-    display: flex;
-}
-
 .fri-performers ul li, .sat-performers ul li, .weather ul li, .parking ul li {
     list-style: none;
+    display: flex;
+    justify-content: start;
 }
 
 /* Footer */
