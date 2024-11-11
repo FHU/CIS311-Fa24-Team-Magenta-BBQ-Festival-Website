@@ -55,6 +55,15 @@ main {
     margin: 2rem;
 }
 
+li::marker {
+    color: var(--main-orange);
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Navigation */
 
 nav {
@@ -67,26 +76,75 @@ nav {
 .title-and-logo {
     display: flex;
     align-items: center;
+    width: 50%;
+}
+
+.site-title h2 {
+    font-size: 24px;
+}
+
+.site-title h1 {
+    font-size: 40px;
 }
 
 .menu-elements {
     display: flex;
+    width: 30rem;
+    justify-content: space-around;
 }
 
 /* Schedule Page */
+.schedule-title {
+    font-size: 80px;
+}
 
 .schedule {
     display: flex;
     justify-content: space-between;
 }
 
+.left-schedule {
+    width: 75%;
+}
+
+.left-schedule h2 {
+    font-size: 36px;
+}
+
+.left-schedule ul {
+    padding: 0rem 3rem;
+}
+
+.left-schedule ul li {
+    font-size: 24px;
+    list-style: square;
+}
+
+.right-schedule {
+    width: 25%;
+}
+
+.right-schedule ul {
+    padding: 0rem 1rem;
+}
+
+.right-schedule ul li {
+    font-size: 16px;
+}
+
 .fri-performers, .sat-performers {
     display: flex;
+}
+
+.fri-performers ul li, .sat-performers ul li, .weather ul li, .parking ul li {
+    list-style: none;
 }
 
 /* Footer */
 
 footer {
+    background: var(--main-orange);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
