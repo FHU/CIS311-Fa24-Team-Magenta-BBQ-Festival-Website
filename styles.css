@@ -53,10 +53,6 @@ body {
     background-color: white;
 }
 
-main {
-    margin: 2rem;
-}
-
 li::marker {
     color: var(--main-orange);
     font-size: 3rem;
@@ -67,10 +63,15 @@ a {
     color: black;
 }
 
+.contact-us-main, .registration-main {
+    height: 70%;
+}
+
 /* Navigation */
 
 nav {
     background-color: var(--main-cream);
+    height: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +119,7 @@ nav a p {
     margin: 2rem;
 }
 
-.schedule {
+.schedule-main {
     display: flex;
     justify-content: space-between;
 }
@@ -181,13 +182,26 @@ nav a p {
     width: 50%;
 }
 
+/* Registration Page */
+.registration-cont {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.registration-cont div {
+    background-color: var(--main-orange);
+    color: white;
+    padding: 2rem;
+}
+
 /* Contact Page */
-.contact-us {
+.contact-us-main {
     display: flex;
     justify-content: space-around;
 }
 
-.contact-us section {
+.contact-us-main section {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
@@ -208,7 +222,6 @@ nav a p {
 
 
 /* Footer */
-
 footer {
     background: var(--main-orange);
     padding: 1rem;
@@ -216,6 +229,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.contact-us-footer, .registration-footer {
+    height: 15%;
 }
 
 .social-media a img {
