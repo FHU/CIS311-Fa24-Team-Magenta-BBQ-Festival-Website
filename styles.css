@@ -260,6 +260,10 @@ footer {
     height: 15%;
 }
 
-.social-media a img {
+.facebook {
     height: 3rem;
+}
+
+.instagram {
+    height: 4rem;
 }
