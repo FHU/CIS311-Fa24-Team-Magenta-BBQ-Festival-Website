@@ -215,10 +215,35 @@ nav a p {
 
 /* index/Home page */
 
+.video-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.calendar-info{
+    background-color: var(--main-orange);
+}
+
+.calendar-info img{
+    max-width: 200px;
+}
+
+
+.calendar-info, .calendar-text{
+    color: var(--main-cream);
+}
+
 
 
 /* About page */
 
+.upper-about-section img{
+    max-width: 50%;
+}
+
+.lower-about-section img{
+    max-width: 50%;
+}
 
 
 /* Footer */
