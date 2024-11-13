@@ -153,7 +153,6 @@ nav a p {
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 1rem;
     border-left: var(--main-orange) solid 2px;
 }
