@@ -278,10 +278,7 @@ footer {
     height: 15%;
 }
 
-.facebook {
+.social-media a img {
     height: 3rem;
-}
-
-.instagram {
-    height: 4rem;
+    margin: 0rem 0.5rem;
 }
