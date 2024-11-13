@@ -126,6 +126,10 @@ nav a p {
     font-size: 40px;
 }
 
+.lower-nav img {
+    width: 10rem;
+}
+
 .lower-nav p {
     font-family: "Heebo", serif;
 }
@@ -140,7 +144,7 @@ nav a p {
 .schedule-main {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .left-schedule {
@@ -209,6 +213,10 @@ nav a p {
     justify-content: start;
 }
 
+.weather > div {
+    border: 2px solid black;
+}
+
 .fri-left, .sat-left {
     width: 40%;
 }
@@ -227,19 +235,34 @@ nav a p {
 .registration-cont {
     display: flex;
     column-gap: 2rem;
+    height: 65%;
     justify-content: center;
 }
 
+.registration-title-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    height: 35%;
+}
+
 .registration-cont div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--main-orange);
     color: white;
     padding: 2rem;
+    width: 30rem;
+    height: 10rem;
+    font-size: 24px;
 }
 
 /* Contact Page */
 .contact-us-main {
     display: flex;
     justify-content: space-around;
+    padding: 2rem;
 }
 
 .contact-us-main section {
