@@ -265,6 +265,10 @@ nav a p {
     padding: 2rem;
 }
 
+.contact-us-main img {
+    width: 90%;
+}
+
 .contact-us-main section {
     display: flex;
     flex-direction: column;
