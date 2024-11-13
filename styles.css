@@ -262,9 +262,32 @@ nav a p {
     height: 500px;
 }
 
+.family-friendly{
+    display: flex;
+    justify-content: center;
+
+}
+
 .calendar-info{
     background-color: var(--main-orange);
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
 }
+
+.calendar-text{
+    display: flex;
+    align-items: center;
+}
+
+.calendar-text h1{
+    font-size: 30px;
+}
+
+.calendar-text h3{
+    font-size: 50px;
+}
+
 
 .calendar-info img{
     max-width: 200px;
@@ -275,6 +298,13 @@ nav a p {
     color: var(--main-cream);
 }
 
+.lower-nav img{
+    max-width: 75%;
+}
+
+.lower-nav p{
+    font-size: 35px;
+}
 
 
 /* About page */
@@ -285,8 +315,24 @@ nav a p {
 
 .lower-about-section img{
     max-width: 50%;
+ 
 }
 
+.upper-about-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-about-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-text p{
+}
+
+.sponsors-image img{
+}
 
 /* Footer */
 footer {
