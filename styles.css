@@ -110,7 +110,13 @@ nav a p {
 .lower-nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     column-gap: 20%;
+    background-image: url(images/images/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0;
+    height: 500px;
 }
 
 .lower-nav a {
