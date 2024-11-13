@@ -103,13 +103,25 @@ nav {
 
 nav a p {
     font-weight: 500;
+    font-family: "Heebo", serif;
 }
 
 /*Lower Navigation*/
 .lower-nav {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: center;
+    column-gap: 20%;
+}
+
+.lower-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.lower-nav p {
+    font-family: "Heebo", serif;
 }
 
 /* Schedule Page */
