@@ -106,7 +106,7 @@ nav a p {
     font-family: "Heebo", serif;
 }
 
-/*Lower Navigation*/
+/*Lower Navigation (need to fix background)*/
 .lower-nav {
     display: flex;
     justify-content: center;
