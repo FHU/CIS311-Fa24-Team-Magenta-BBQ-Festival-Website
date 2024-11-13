@@ -218,6 +218,12 @@ nav a p {
 }
 
 /* Registration Page */
+.registration-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .registration-cont {
     display: flex;
     column-gap: 2rem;
