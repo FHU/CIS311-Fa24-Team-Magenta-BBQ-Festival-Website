@@ -388,8 +388,12 @@ nav a p {
 }
 
 .upper-about-section{
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-upper-image {
+    float: right;
 }
 
 .lower-about-section{
