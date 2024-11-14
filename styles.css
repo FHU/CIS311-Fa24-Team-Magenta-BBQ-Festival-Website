@@ -379,17 +379,24 @@ nav a p {
 /* About page */
 
 .upper-about-section img{
-    max-width: 50%;
+    max-width: 25%;
+    float: right;
+}
+
+.upper-about-text p{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    font-size: 25px;
 }
 
 .lower-about-section img{
     max-width: 100%;
- 
 }
 
 .upper-about-section{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 
