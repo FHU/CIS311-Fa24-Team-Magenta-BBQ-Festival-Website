@@ -325,12 +325,8 @@ nav a p {
     color: var(--main-cream);
 }
 
-.lower-nav{
-    padding-bottom: 5rem;
-}
-
 .lower-nav img{
-    max-width: 75%;
+    max-width: 100%;
 }
 
 .lower-nav p{
