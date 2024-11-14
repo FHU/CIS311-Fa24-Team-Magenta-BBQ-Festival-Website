@@ -326,6 +326,7 @@ nav a p {
     width: 15rem;
     max-width: 100%;
     border-top: 2px solid var(--main-orange);
+    margin: auto;
 }
 
 .family-friendly, .delicious-eats, .activities, .event-details {
