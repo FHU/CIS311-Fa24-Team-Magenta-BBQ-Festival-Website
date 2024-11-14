@@ -321,6 +321,10 @@ nav a p {
     color: var(--main-cream);
 }
 
+.lower-nav{
+    padding-bottom: 5rem;
+}
+
 .lower-nav img{
     max-width: 75%;
 }
@@ -328,6 +332,26 @@ nav a p {
 .lower-nav p{
     font-size: 35px;
 }
+
+.sponsors-section{
+    background-color: var(--main-cream);
+}
+
+.sponsors-text p{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 2rem;
+
+}
+
+.sponsors-image img{
+    max-width: 20%;
+    padding: 2rem;
+
+}
+
+
 
 
 /* About page */
@@ -337,13 +361,13 @@ nav a p {
 }
 
 .lower-about-section img{
-    max-width: 50%;
+    max-width: 100%;
  
 }
 
 .upper-about-section{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .lower-about-section{
@@ -351,11 +375,18 @@ nav a p {
     justify-content: space-between;
 }
 
-.sponsors-text p{
+.about-lower-text p{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    font-size: 25px;
 }
 
-.sponsors-image img{
+.about-lower-image img{
+    padding-left: 1rem;
 }
+
+
 
 /* Footer */
 footer {
