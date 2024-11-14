@@ -392,9 +392,6 @@ nav a p {
     justify-content: space-between;
 }
 
-.about-upper-image {
-    float: right;
-}
 
 .lower-about-section{
     display: flex;
