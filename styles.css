@@ -387,7 +387,7 @@ nav a p {
 /* About page */
 
 .upper-about-section img{
-    max-width: 25%;
+    max-width: 300px;
     float: right;
 }
 
@@ -399,18 +399,12 @@ nav a p {
 }
 
 .lower-about-section img{
-    max-width: 100%;
+    max-width: 350px;
+    padding-left: 1rem;
 }
-
-.upper-about-section{
-    /* display: flex;
-    justify-content: space-between; */
-}
-
 
 .lower-about-section{
     display: flex;
-    justify-content: space-between;
 }
 
 .about-lower-text p{
@@ -419,12 +413,6 @@ nav a p {
     padding-top: 1.5rem;
     font-size: 25px;
 }
-
-.about-lower-image img{
-    padding-left: 1rem;
-}
-
-
 
 /* Footer */
 footer {
