@@ -386,33 +386,46 @@ nav a p {
 }
 
 /* About page */
-
-.upper-about-section img{
-    max-width: 300px;
-    float: right;
+.about-main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    grid-template-rows: auto auto;  /* Creates two rows */
+    gap: 1rem; /* Adds space between grid items */
+    grid-template-areas: 
+        "upper-text upper-image"
+        "lower-image lower-text";
 }
 
-.upper-about-text p{
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-    font-size: 25px;
+.about-upper-image {
+    grid-area: upper-image;
 }
 
-.lower-about-section img{
-    max-width: 350px;
-    padding-left: 1rem;
-}
-
-.lower-about-section{
+.upper-about-text {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    grid-area: upper-text;
 }
 
-.about-lower-text p{
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-    font-size: 25px;
+.about-lower-image {
+    grid-area: lower-image;
+}
+
+.about-lower-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    grid-area: lower-text;
+}
+
+.about-main p {
+    font-size: 30px;
+}
+
+.about-main img {
+    width: 100%;
 }
 
 /* Footer */
