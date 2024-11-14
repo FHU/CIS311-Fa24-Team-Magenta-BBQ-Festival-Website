@@ -113,10 +113,10 @@ nav a p {
     align-items: center;
     column-gap: 20%;
     background-image: url(images/images/background.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 0;
-    height: 500px;
+    height: 600px
 }
 
 .lower-nav a {
