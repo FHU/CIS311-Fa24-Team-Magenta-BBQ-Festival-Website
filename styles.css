@@ -203,6 +203,10 @@ nav a p {
     margin: 0rem 0rem 0.75rem 0rem;
 }
 
+.right-schedule h3 {
+    margin: 0.75rem 0rem;
+}
+
 .parking li {
     font-weight: 600;
 }
