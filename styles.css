@@ -297,40 +297,54 @@ nav a p {
     height: 500px;
 }
 
-.family-friendly{
-    display: flex;
-    justify-content: center;
 
-}
 
 .calendar-info{
     background-color: var(--main-orange);
     padding: .5rem;
     display: flex;
     justify-content: center;
-}
-
-.calendar-text{
-    display: flex;
     align-items: center;
 }
 
 .calendar-text h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .calendar-text h3{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 
 .calendar-info img{
-    max-width: 200px;
+    max-width: 300px;
+    padding-right: 2rem;
 }
 
 
 .calendar-info, .calendar-text{
     color: var(--main-cream);
+}
+
+.family-friendly h3, .Food-info h3, .Activities h3, .Event-details h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.family-friendly p, .Food-info p, .Activities p, .Event-details p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.hog_callin_image{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .lower-nav img{
@@ -341,7 +355,7 @@ nav a p {
     font-size: 35px;
 }
 
-.sponsors-section{
+.sponsors-section {
     background-color: var(--main-cream);
 }
 
