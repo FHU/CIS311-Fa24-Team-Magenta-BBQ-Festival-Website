@@ -286,7 +286,7 @@ nav a p {
 
 .contact-us-title, .location-title {
     font-size: 80px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* index/Home page */
@@ -404,7 +404,8 @@ nav a p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    row-gap: 2rem;
+    padding: 5rem;
     grid-area: upper-text;
 }
 
@@ -416,16 +417,24 @@ nav a p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    row-gap: 2rem;
+    padding: 5rem;
     grid-area: lower-text;
 }
 
 .about-main p {
+    font-family: "Heebo", serif;
     font-size: 30px;
 }
 
 .about-main img {
     width: 100%;
+}
+
+.about-title {
+    text-align: center;
+    margin: 2rem;
+    font-size: 48px;
 }
 
 /* Footer */
