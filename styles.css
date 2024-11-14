@@ -217,8 +217,12 @@ nav a p {
     justify-content: start;
 }
 
-.weather > div {
-    border: 2px solid black;
+.weather, .weather ul li {
+    font-size: 22px;
+}
+
+.parking, .parking ul li {
+    font-size: 22px;
 }
 
 .fri-left, .sat-left {
