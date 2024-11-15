@@ -295,14 +295,31 @@ nav a p {
     object-fit: cover;
     width: 100%;
     height: 500px;
+
+    position: relative;
+    z-index: -1;
 }
 
 .calendar-info{
     background-color: var(--main-orange);
-    padding: .5rem;
+    padding: .6rem;
     display: flex;
-    justify-content: center;
+
+    padding-left: 5%;
+    padding-right: 25%;
+    justify-content: space-between;
     align-items: center;
+
+    margin-top: -4px;
+}
+
+.calendar-logo img{
+    margin-top: -50px;
+}
+
+.calendar-text {
+    align-items: center;
+    max-width: 100%;
 }
 
 .calendar-text h1{
