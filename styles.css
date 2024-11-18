@@ -73,6 +73,7 @@ nav {
     background-color: var(--main-cream);
     height: 15%;
     display: flex;
+    column-gap: 2rem;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -94,9 +95,14 @@ nav {
     font-weight: 700;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .menu-elements {
     display: flex;
-    width: 32rem;
+    max-width: 32rem;
+    width: 50%;
     justify-content: space-between;
     font-size: 20px;
 }
@@ -106,7 +112,7 @@ nav a p {
     font-family: "Heebo", serif;
 }
 
-/*Lower Navigation (need to fix background)*/
+/*Lower Navigation*/
 .lower-nav {
     display: flex;
     justify-content: center;
@@ -472,3 +478,60 @@ footer {
     height: 3rem;
     margin: 0rem 0.5rem;
 }
+
+/* IPad Size */
+@media (max-width: 950px) {
+    /* Navigation (IPad) */
+    .title-and-logo {
+        width: 80%;
+    }
+
+    .hamburger-menu {
+        width: 20%;
+        text-align: right;
+        display:block;
+    }
+
+    .nav-logo {
+        width: 20%;
+    }
+
+    .site-title {
+        width: 80%;
+    }
+
+    .menu-elements {
+        display: none;
+    }
+  }
+
+/* Mobile Size */
+@media (max-width: 600px) {
+    /* Navigation (Mobile) */
+    .title-and-logo {
+        width: 90%;
+    }
+    
+    .hamburger-menu {
+        width: 10%;
+    }
+
+    .nav-logo {
+        width: 10%;
+    }
+
+    .site-title {
+        width: 80%;
+    }
+
+    .site-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .site-title h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+  }
