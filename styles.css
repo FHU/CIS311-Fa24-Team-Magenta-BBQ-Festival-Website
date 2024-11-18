@@ -122,7 +122,8 @@ nav a p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0;
-    height: 600px
+    height: 600px;
+    padding: 0rem 2rem;
 }
 
 .lower-nav a {
@@ -513,6 +514,11 @@ footer {
         flex-direction: column;
     }
 
+    /*Lower Nav (IPad)*/
+    .lower-nav img {
+        width: 8rem;
+    }
+
   }
 
 /* Mobile Size */
@@ -583,4 +589,33 @@ footer {
     .lower-nav p {
         font-size: 25px;
     }
+
+    /*Footer Responsiveness*/
+    .social-media a img {
+        height: 2rem;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    .sponsors-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsors-text {
+        text-align: center;
+    }
+
+    .sponsors-text p {
+        font-size: 1.5rem;
+    }
+
+    .sponsors-image img {
+        max-width: 60%;
+        display: block;
+    }
+
   }
