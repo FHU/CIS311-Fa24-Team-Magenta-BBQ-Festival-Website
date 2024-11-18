@@ -129,6 +129,9 @@ nav a p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.lower-nav p {
     font-size: 40px;
 }
 
@@ -310,12 +313,9 @@ nav a p {
     background-color: var(--main-orange);
     padding: .6rem;
     display: flex;
-
-    padding-left: 5%;
-    padding-right: 25%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
+    text-align: center;
     margin-top: -4px;
 }
 
@@ -356,6 +356,7 @@ nav a p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     row-gap: 1rem;
     margin: 2rem;
 }
@@ -378,8 +379,7 @@ nav a p {
 .hog_callin_image{
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0rem 3rem 0rem;
 }
 
 .lower-nav img{
@@ -507,6 +507,12 @@ footer {
     .menu-elements {
         display: none;
     }
+
+    /*Index/Home (IPad)*/
+    .calendar-info {
+        flex-direction: column;
+    }
+
   }
 
 /* Mobile Size */
@@ -537,5 +543,44 @@ footer {
         font-size: 30px;
         font-weight: 700;
         text-align: center;
+    }
+
+    /*Index/Home (Mobile)*/
+    .video-image img{
+        height: 200px;
+    }
+
+    .calendar-text h1{
+        font-size: 25px;
+    }
+    
+    .calendar-text h3{
+        font-size: 40px;
+    }
+
+    .family-friendly h3, .delicious-eats h3, .activities h3, .event-details h3{
+        font-size: 25px;
+    }
+
+    .hog_callin_image img {
+        width: 100%;
+    }
+
+    /*Lower Nav (Mobile)*/
+    .lower-nav {
+        column-gap: 5%;
+        height: 250px;
+    }
+    
+    .lower-nav img {
+        width: 5rem;
+    }
+
+    .lower-nav a {
+        font-size: 25px;
+    }
+    
+    .lower-nav p {
+        font-size: 25px;
     }
   }
