@@ -496,6 +496,10 @@ footer {
         width: 20%;
     }
 
+    .nav-logo img {
+        width: 5rem;
+    }
+
     .site-title {
         width: 80%;
     }
