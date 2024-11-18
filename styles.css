@@ -535,10 +535,17 @@ footer {
         flex-direction: column;
     }
 
+    .family-friendly > div, .delicious-eats > div, .activities > div
+
+    .family-friendly > div, .delicious-eats > div, .activities > div {
+        display: block;
+    }    
+
     /*Lower Nav (IPad)*/
     .lower-nav img {
         width: 8rem;
     }
+    
 
   }
 
