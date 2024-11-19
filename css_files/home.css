@@ -37,7 +37,7 @@
 }
 
 .calendar-info img{
-    max-width: 300px;
+    width: 500px;
     padding-right: 2rem;
 }
 
@@ -150,6 +150,11 @@
     .video-image img{
         height: 200px;
     }
+
+    .calendar-info img{
+        width: 400px;
+        padding-right: 2rem;
+    }    
 
     .calendar-text h1{
         font-size: 25px;
