@@ -104,27 +104,33 @@
 
 .sponsors-section {
     background-color: var(--main-cream);
+    padding: 2rem;
 }
 
-.sponsors-text p{
+.sponsors-text p {
     display: flex;
     justify-content: center;
     font-size: 35px;
     padding-top: 2rem;
-
+    margin: 0;
+    color: #333;
 }
 
 .sponsors-image {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem 1rem;
 }
 
-.sponsors-image img{
+.sponsors-image img {
     display: block;
     width: 100%;
-    padding: 2rem;
-
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
 }
 
 /* IPad Size */
