@@ -1,11 +1,13 @@
 const hamburgerButton = document.querySelector(".hamburger-menu");
-const menuElements = document.querySelector(".menu-elements");
+const closeButton = document.querySelector(".close")
+const menuElements = document.querySelector(".hamburger-info");
 const overlay = document.querySelector(".overlay");
+
 
 // Open menu
 hamburgerButton.addEventListener("click", (e) => {
     e.preventDefault();
-    menuElements.classList.add("menu"); // Add the "menu" class
+    menuElements.style.display = "flex"; 
     overlay.style.display = "flex";
 });
 
@@ -16,6 +18,6 @@ overlay.addEventListener("click", () => {
 
 // Hide menu function
 function hideMenu() {
-    menuElements.classList.remove("menu"); // Remove the "menu" class
+    menuElements.style.display = "none";
     overlay.style.display = "none";
 }

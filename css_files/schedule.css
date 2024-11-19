@@ -13,7 +13,7 @@
 }
 
 .left-schedule {
-    width: 75%;
+    width: 74%;
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
@@ -33,15 +33,34 @@
 
 .left-schedule ul li {
     font-size: 24px;
+    padding-bottom: 10px;
     list-style: square;
+}
+
+.left-schedule-bulletpoints{
+    margin-left: 3rem;
+}
+
+.baseline-spacer {
+    padding: 25px;
 }
 
 .right-schedule {
     width: 25%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    border-left: var(--main-orange) solid 2px;
+    border-left: var(--main-orange) solid 5px;
+}
+
+.right-col-headers {
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.underline-schedule {
+    width: 100%;
+    border-bottom: var(--main-orange) solid 3px;
 }
 
 .right-schedule div {
@@ -70,6 +89,7 @@
 
 .right-schedule h3 {
     margin: 0.75rem 0rem;
+    padding-left: 1.75rem;
 }
 
 .parking li {
@@ -79,7 +99,12 @@
 .fri-performers ul li, .sat-performers ul li, .weather ul li, .parking ul li {
     list-style: none;
     display: flex;
+    padding-left: 3rem;
     justify-content: start;
+}
+
+.performers {
+    font-size: 32px;
 }
 
 .weather, .weather ul li {
