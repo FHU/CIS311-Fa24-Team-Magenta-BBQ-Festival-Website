@@ -117,11 +117,12 @@
 .sponsors-image {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .sponsors-image img{
     display: block;
-    max-width: 20%;
+    width: 100%;
     padding: 2rem;
 
 }
@@ -177,10 +178,6 @@
     /*Sponsors (Mobile)*/
     .social-media a img {
         height: 2rem;
-    }
-
-    footer p {
-        font-size: 0.5rem;
     }
 
     .sponsors-image {

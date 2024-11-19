@@ -287,4 +287,9 @@ footer {
     .lower-nav p {
         font-size: 25px;
     }
+
+    /*Footer (Mobile)*/
+    .tradition {
+        display: none;
+    }
   }
