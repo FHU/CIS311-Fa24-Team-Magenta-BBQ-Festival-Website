@@ -102,14 +102,6 @@
     font-weight: 700;
 }
 
-.lower-nav img{
-    max-width: 100%;
-}
-
-.lower-nav p{
-    font-size: 35px;
-}
-
 .sponsors-section {
     background-color: var(--main-cream);
 }
@@ -174,5 +166,33 @@
 
     .hog_callin_image img {
         width: 100%;
+    }
+
+    /*Sponsors (Mobile)*/
+    .social-media a img {
+        height: 2rem;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    .sponsors-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsors-text {
+        text-align: center;
+    }
+
+    .sponsors-text p {
+        font-size: 1.5rem;
+    }
+
+    .sponsors-image img {
+        max-width: 60%;
+        display: block;
     }
   }
