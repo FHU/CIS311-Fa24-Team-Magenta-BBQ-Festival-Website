@@ -85,6 +85,7 @@
 
 .right-schedule h2 {
     margin: 0rem 0rem 0.75rem 0rem;
+    color: var(--main-orange)
 }
 
 .right-schedule h3 {
@@ -126,7 +127,38 @@
 /* IPad Size */
 @media (max-width: 950px) {
     /* Schedule (IPad) */
+    .schedule-title {
+        font-size: 48px;
+        font-weight: 600;
+        margin: 2rem;
+        text-align: center;
+    }    
 
+    .schedule-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-schedule h2 {
+        margin: 0rem 0rem 0.75rem 0rem;
+        color: white;
+        background-color: var(--main-orange);
+    }
+
+    .left-schedule {
+        width: 100%;
+    }
+
+    .right-schedule {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: none;
+    }
+
+    .right-col-headers {
+        padding: 1rem 2rem;
+    }  
   }
 
 /* Mobile Size */
