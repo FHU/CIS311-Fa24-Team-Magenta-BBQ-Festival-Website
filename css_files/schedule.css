@@ -13,7 +13,7 @@
 }
 
 .left-schedule {
-    width: 74%;
+    width: 73%;
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
