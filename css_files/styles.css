@@ -115,6 +115,10 @@ nav {
     display: none;
 }
 
+.hamburger-info {
+    display: none;
+}
+
 .overlay{
     display: none;
     content: "";
