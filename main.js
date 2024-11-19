@@ -1,25 +1,21 @@
-//get a handle to
+const hamburgerButton = document.querySelector(".hamburger-menu");
+const menuElements = document.querySelector(".menu-elements");
+const overlay = document.querySelector(".overlay");
 
-const hamburgerButton = document.querySelector(".hamburger-menu")
-const menu = document.querySelector(".menu")
-const overlay = document.querySelector(".overlay")
-
+// Open menu
 hamburgerButton.addEventListener("click", (e) => {
-    e.preventDefault()
-    menu.style.display = "flex"
-    overlay.style.display = "flex"
-})
+    e.preventDefault();
+    menuElements.classList.add("menu"); // Add the "menu" class
+    overlay.style.display = "flex";
+});
 
-closeButton.addEventListener("click", (e) => {
-    e.preventDefault()
-    hideMenu()
-})
-
+// Close menu via overlay click
 overlay.addEventListener("click", () => {
-    hideMenu()
-})
+    hideMenu();
+});
 
+// Hide menu function
 function hideMenu() {
-    menu.style.display = "none"
-    overlay.style.display = "none"
+    menuElements.classList.remove("menu"); // Remove the "menu" class
+    overlay.style.display = "none";
 }

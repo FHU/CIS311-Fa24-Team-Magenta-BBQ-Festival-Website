@@ -98,7 +98,19 @@ nav {
     font-weight: 700;
 }
 
+.menu-elements {
+    display: flex;
+    max-width: 32rem;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
 /*hamburger menu*/
+.hamburger-menu {
+    display: none;
+}
+
 .overlay{
     display: none;
     content: "";
@@ -214,6 +226,10 @@ footer {
 
     .menu-elements {
         display: none;
+    }
+
+    .menu-elements.menu {
+        display: flex; /* Show menu when "menu" class is added */
     }
 
     /*Lower Nav (IPad)*/
