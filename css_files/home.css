@@ -110,6 +110,41 @@
     font-weight: 700;
 }
 
+/*Lower Navigation*/
+.lower-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    background-image: url(images/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    height: 500px;
+    padding: 0rem 2rem;
+}
+
+.lower-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower-nav img{
+    width: 10rem;
+}
+
+.lower-nav p{
+    font-size: 35px;
+}
+
+.lower-nav p {
+    font-family: "Heebo", serif;
+}
+
+
+/*Sponsors*/
+
 .sponsors-section {
     background-color: var(--main-cream);
     padding: 2rem;
@@ -163,6 +198,12 @@
     .hog_callin_image img {
         width: 100%;
     }    
+    
+    /*Lower Nav (IPad)*/
+    .lower-nav img {
+        width: 8rem;
+    }
+    
   }
 
 /* Mobile Size */
@@ -191,6 +232,30 @@
 
     .family-friendly h3, .delicious-eats h3, .activities h3, .event-details h3{
         font-size: 25px;
+    }
+
+    
+    /*Lower Nav (Mobile)*/
+    .lower-nav {
+        column-gap: 5%;
+        height: 250px;
+    }
+    
+    .lower-nav img {
+        width: 5rem;
+    }
+
+    .lower-nav a {
+        font-size: 25px;
+    }
+    
+    .lower-nav p {
+        font-size: 25px;
+    }
+
+    /*Footer (Mobile)*/
+    .tradition {
+        display: none;
     }
 
     /*Sponsors (Mobile)*/
