@@ -114,7 +114,13 @@
 
 }
 
+.sponsors-image {
+    display: flex;
+    justify-content: center;
+}
+
 .sponsors-image img{
+    display: block;
     max-width: 20%;
     padding: 2rem;
 
@@ -134,6 +140,10 @@
     .family-friendly > div, .delicious-eats > div, .activities > div {
         display: block;
     }    
+
+    .hog_callin_image img {
+        width: 100%;
+    }
   }
 
 /* Mobile Size */
@@ -164,10 +174,6 @@
         font-size: 25px;
     }
 
-    .hog_callin_image img {
-        width: 100%;
-    }
-
     /*Sponsors (Mobile)*/
     .social-media a img {
         height: 2rem;
@@ -193,6 +199,5 @@
 
     .sponsors-image img {
         max-width: 60%;
-        display: block;
     }
   }
