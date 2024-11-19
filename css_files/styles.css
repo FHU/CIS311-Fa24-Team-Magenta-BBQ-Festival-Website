@@ -25,6 +25,10 @@
     background-color: var(--main-orange);
 }
 
+.cream-background {
+    background: var(--main-cream);
+}
+
 .gray-text {
     color: var(--main-gray);
 }
