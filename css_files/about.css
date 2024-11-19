@@ -45,9 +45,9 @@
 }
 
 .about-title {
-    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
     margin: 2rem;
-    font-size: 48px;
 }
 
 /* IPad Size */
