@@ -1,0 +1,111 @@
+/* CSS for Schedule Page */
+
+.schedule-title {
+    font-size: 80px;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.schedule-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.left-schedule {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.left-schedule h2 {
+    font-size: 36px;
+    padding: 1rem;
+}
+
+.left-schedule ul {
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left-schedule ul li {
+    font-size: 24px;
+    list-style: square;
+}
+
+.right-schedule {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-left: var(--main-orange) solid 2px;
+}
+
+.right-schedule div {
+    padding: 1rem;
+}
+
+.right-schedule ul {
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.right-schedule ul li {
+    font-size: 16px;
+    width: 300px;
+}
+
+.right-schedule h2, h3 {
+    font-weight: 600;
+}
+
+.right-schedule h2 {
+    margin: 0rem 0rem 0.75rem 0rem;
+}
+
+.right-schedule h3 {
+    margin: 0.75rem 0rem;
+}
+
+.parking li {
+    font-weight: 600;
+}
+
+.fri-performers ul li, .sat-performers ul li, .weather ul li, .parking ul li {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+
+.weather, .weather ul li {
+    font-size: 22px;
+}
+
+.parking, .parking ul li {
+    font-size: 22px;
+}
+
+.fri-left, .sat-left {
+    width: 40%;
+}
+
+.fri-right, .sat-right {
+    width: 60%;
+}
+
+/* IPad Size */
+@media (max-width: 950px) {
+    /* Schedule (IPad) */
+
+  }
+
+/* Mobile Size */
+@media (max-width: 600px) {
+    /* Schedule (Mobile) */
+   
+  }

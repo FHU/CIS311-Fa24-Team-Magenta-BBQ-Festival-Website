@@ -1,0 +1,302 @@
+/* IMPORTANT */
+/* This it the CSS for things shared between multiple pages */
+
+:root {
+    --main-orange: #723435;
+    --secondary-orange: #D65F30;
+    --main-cream: #FFEBE2;
+    --main-gray: #2A2A2A;
+  }  
+
+/* Global Properties*/
+.underline {
+    text-decoration: underline;
+}
+
+.cream-text {
+    color: var(--main-cream);
+}
+
+.orange-text {
+    color: var(--main-orange);
+}
+
+.orange-background {
+    background-color: var(--main-orange);
+}
+
+.gray-text {
+    color: var(--main-gray);
+}
+
+.white-text {
+    color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+/*Other Properties*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Hepta Slab", serif;
+    font-weight: 400;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+}
+
+li::marker {
+    color: var(--main-orange);
+    font-size: 3rem;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-us-main, .registration-main {
+    height: 70%;
+}
+
+/* Navigation */
+
+nav {
+    background-color: var(--main-cream);
+    height: 15%;
+    display: flex;
+    column-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title-and-logo {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    width: 50%;
+}
+
+.site-title h2 {
+    font-size: 24px;
+}
+
+.site-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*hamburger menu*/
+.overlay{
+    display: none;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.menu{
+    display: none;
+    background-color: white;
+    width: 60%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+}
+
+.menu ul{
+    display: grid;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    padding-top: 40%;
+    padding-left: 10%;
+    padding-bottom: 60%;
+}
+
+nav a p {
+    font-weight: 500;
+    font-family: "Heebo", serif;
+}
+
+/*Lower Navigation*/
+.lower-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20%;
+    background-image: url(images/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    height: 600px;
+    padding: 0rem 2rem;
+}
+
+.lower-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower-nav p {
+    font-size: 40px;
+}
+
+.lower-nav img {
+    width: 10rem;
+}
+
+.lower-nav p {
+    font-family: "Heebo", serif;
+}
+
+/* Footer */
+footer {
+    background: var(--main-orange);
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-us-footer, .registration-footer {
+    height: 15%;
+}
+
+.social-media a img {
+    height: 3rem;
+    margin: 0rem 0.5rem;
+}
+
+/* IPad Size */
+@media (max-width: 950px) {
+    /* Navigation (IPad) */
+    .title-and-logo {
+        width: 80%;
+    }
+
+    .hamburger-menu {
+        width: 20%;
+        text-align: right;
+        display:block;
+    }
+
+    .nav-logo {
+        width: 20%;
+    }
+
+    .nav-logo img {
+        width: 5rem;
+    }
+
+    .site-title {
+        width: 80%;
+    }
+
+    .menu-elements {
+        display: none;
+    }
+
+    /*Lower Nav (IPad)*/
+    .lower-nav img {
+        width: 8rem;
+    }
+    
+
+  }
+
+/* Mobile Size */
+@media (max-width: 600px) {
+    /* Navigation (Mobile) */
+    .title-and-logo {
+        width: 90%;
+    }
+    
+    .hamburger-menu {
+        width: 10%;
+    }
+
+    .nav-logo {
+        width: 10%;
+    }
+
+    .site-title {
+        width: 80%;
+    }
+
+    .site-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .site-title h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /*Lower Nav (Mobile)*/
+    .lower-nav {
+        column-gap: 5%;
+        height: 250px;
+    }
+    
+    .lower-nav img {
+        width: 5rem;
+    }
+
+    .lower-nav a {
+        font-size: 25px;
+    }
+    
+    .lower-nav p {
+        font-size: 25px;
+    }
+
+    /*Footer Responsiveness*/
+    .social-media a img {
+        height: 2rem;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    .sponsors-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsors-text {
+        text-align: center;
+    }
+
+    .sponsors-text p {
+        font-size: 1.5rem;
+    }
+
+    .sponsors-image img {
+        max-width: 60%;
+        display: block;
+    }
+  }

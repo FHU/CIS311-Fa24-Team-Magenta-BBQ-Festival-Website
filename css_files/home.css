@@ -1,0 +1,147 @@
+/* CSS for Index/Home Page */
+
+.video-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+
+    position: relative;
+    z-index: -1;
+}
+
+.calendar-info{
+    background-color: var(--main-orange);
+    padding: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.calendar-logo img{
+    margin-top: -50px;
+}
+
+.calendar-text {
+    align-items: center;
+    max-width: 100%;
+}
+
+.calendar-text h1{
+    font-size: 40px;
+}
+
+.calendar-text h3{
+    font-size: 60px;
+}
+
+.calendar-info img{
+    max-width: 300px;
+    padding-right: 2rem;
+}
+
+.calendar-info, .calendar-text{
+    color: var(--main-cream);
+}
+
+.divider {
+    width: 15rem;
+    max-width: 100%;
+    border-top: 2px solid var(--main-orange);
+    margin: auto;
+}
+
+.family-friendly, .delicious-eats, .activities, .event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 1rem;
+    margin: 2rem;
+}
+
+.family-friendly > div, .delicious-eats > div, .activities > div {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.family-friendly h3, .delicious-eats h3, .activities h3, .event-details h3{
+    font-size: 40px;
+}
+
+.family-friendly p, .delicious-eats p, .activities p, .event-details p{
+    font-size: 20px;
+    font-family: "Heebo", serif;
+}
+
+.hog_callin_image{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.lower-nav img{
+    max-width: 100%;
+}
+
+.lower-nav p{
+    font-size: 35px;
+}
+
+.sponsors-section {
+    background-color: var(--main-cream);
+}
+
+.sponsors-text p{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 2rem;
+
+}
+
+.sponsors-image img{
+    max-width: 20%;
+    padding: 2rem;
+
+}
+
+/* IPad Size */
+@media (max-width: 950px) {
+    /*Index/Home (IPad)*/
+    .calendar-info {
+        flex-direction: column;
+    }
+
+    .family-friendly > div, .delicious-eats > div, .activities > div
+
+    .family-friendly > div, .delicious-eats > div, .activities > div {
+        display: block;
+    }    
+  }
+
+/* Mobile Size */
+@media (max-width: 600px) {
+    /*Index/Home (Mobile)*/
+    .video-image img{
+        height: 200px;
+    }
+
+    .calendar-text h1{
+        font-size: 25px;
+    }
+    
+    .calendar-text h3{
+        font-size: 40px;
+    }
+
+    .family-friendly h3, .delicious-eats h3, .activities h3, .event-details h3{
+        font-size: 25px;
+    }
+
+    .hog_callin_image img {
+        width: 100%;
+    }
+  }

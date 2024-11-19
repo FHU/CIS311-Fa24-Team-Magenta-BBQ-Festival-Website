@@ -1,0 +1,34 @@
+/* CSS for Contact Page */
+.contact-us-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.contact-us-main img {
+    width: 90%;
+}
+
+.contact-us-main section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    font-size: 24px;
+}
+
+.contact-us-title, .location-title {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+/* IPad Size */
+@media (max-width: 950px) {
+    /* Contact (IPad) */
+
+  }
+
+/* Mobile Size */
+@media (max-width: 600px) {
+    /* Contact (Mobile) */
+   
+  }
