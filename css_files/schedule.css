@@ -104,10 +104,6 @@
     justify-content: start;
 }
 
-.performers {
-    font-size: 32px;
-}
-
 .weather, .weather ul li {
     font-size: 22px;
 }
@@ -158,7 +154,11 @@
 
     .right-col-headers {
         padding: 1rem 2rem;
-    }  
+    }
+
+    .performers {
+        display: none;
+    }
   }
 
 /* Mobile Size */
