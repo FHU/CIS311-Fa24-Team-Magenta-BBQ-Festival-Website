@@ -43,21 +43,55 @@
 .about-main img {
     width: 100%;
 }
-
 .about-title {
     font-size: 80px;
     font-weight: 600;
     margin: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 /* IPad Size */
 @media (max-width: 950px) {
     /* About (IPad) */
-    
+    .about-main section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "upper-image"
+        "upper-text"
+        "lower-image"
+        "lower-text"
+        ;
+    }
+
+    /* .about-title {
+        flex-direction: column;
+    } */
+
+    .about-main .about-title{
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    /* .about-upper-image{
+        object-fit: cover;
+        
+    } */
+
   }
 
 /* Mobile Size */
 @media (max-width: 600px) {
     /* About (Mobile) */
-   
+    .about-main .about-title{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-main p{
+        font-size: 25px;
+    }
   }
