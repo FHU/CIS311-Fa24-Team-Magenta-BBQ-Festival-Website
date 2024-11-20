@@ -26,15 +26,19 @@
     background-color: var(--main-orange);
     color: white;
     padding: 2rem;
-    width: 30rem;
+    /* or 20rem to avoid side scrolling */
+    width: 30rem; 
+    /* or 8rem to fit the other changes */
     height: 10rem;
-    font-size: 24px;
-}
+    /* or 18px to avoid side scrolling */
+    font-size: 24px; 
+} 
 
 /* IPad Size */
 @media (max-width: 950px) {
     /* Registration (IPad) */
 
+    
   }
 
 /* Mobile Size */
