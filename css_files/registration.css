@@ -36,6 +36,10 @@
     font-size: 18px; 
 } 
 
+.registration-cont div:hover{
+    background-color: #5b2627;
+}
+
 /* IPad Size */
 @media (max-width: 950px) {
     /* Registration (IPad) */
