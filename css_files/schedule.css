@@ -178,12 +178,12 @@
 @media (max-width: 600px) {
     /* Schedule (Mobile) */
     .left-schedule h2{
-        font-size: 20px;
+        font-size: 24px;
         padding: 1rem;
     }
 
     .right-schedule h2{
-        font-size: 20px;
+        font-size: 24px;
         padding: 1rem;
     }
 
@@ -192,13 +192,13 @@
     }
 
     .left-schedule ul li {
-        font-size: 16px;
+        font-size: 18px;
         padding-bottom: 2px;
         list-style: square;
     }
 
     .right-schedule ul li {
-        font-size: 16px;
+        font-size: 18px;
         padding-bottom: 2px;
     }
 
@@ -206,3 +206,4 @@
         padding: 25px;
     }
   }
+  
