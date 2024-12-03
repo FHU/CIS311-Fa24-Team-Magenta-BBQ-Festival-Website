@@ -73,6 +73,10 @@
     column-gap: 1rem;
 }
 
+.family-friendly p, .delicious-eats p, .activities > p {
+    display: none;
+}
+
 .family-friendly h3, .delicious-eats h3, .activities h3, .event-details h3{
     font-weight: 600;
     font-size: 40px;
@@ -195,6 +199,10 @@
         margin-bottom: 1rem;
     }
 
+    .family-friendly p, .delicious-eats p, .activities > p {
+        display: none;
+    }
+
     .hog_callin_image img {
         width: 100%;
     }    
@@ -224,6 +232,10 @@
     
     .calendar-text h3{
         font-size: 40px;
+    }
+
+    .family-friendly p, .delicious-eats p, .activities > p  {
+        display: block;
     }
 
     .family-friendly, .delicious-eats, .activities {
