@@ -104,6 +104,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: var(--secondary-orange);
     border-radius: 0.5rem;
     width: 10rem;
