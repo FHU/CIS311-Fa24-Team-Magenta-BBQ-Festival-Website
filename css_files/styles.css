@@ -125,8 +125,34 @@ nav {
     display: none;
 }
 
-.hamburger-info {
+.hamburger-info{
     display: none;
+    flex-direction: column;
+    background-color: var(--main-orange);
+    width: 30%;
+    height: 50%;
+    position: fixed;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+}
+
+.hamburger-info ul{
+    line-height: 3.5rem;
+    list-style-type: none;
+}
+
+.hamburger-info a {
+    color: white;
+}
+
+.close-cont {
+    display: flex;
+    justify-content: end;
+}
+
+.close-cont img {
+    width: 2rem;
 }
 
 .overlay{
@@ -196,28 +222,6 @@ footer {
         width: 20%;
         text-align: right;
         display:block;
-    }
-
-    .hamburger-info{
-        display: none;
-        background-color: white;
-        width: 60%;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-    }
-
-    .hamburger-info ul{
-        display: grid;
-    
-        font-size: 20px;
-        font-weight: 400;
-    
-        padding-top: 30%;
-        padding-left: 20%;
-        padding-bottom: 10%;
-        list-style-type: none;
     }
 
     .nav-logo {
