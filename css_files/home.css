@@ -163,6 +163,7 @@
 .sponsors-section {
     background-color: var(--main-cream);
     padding: 2rem;
+    overflow: hidden; /* Ensures no scrollbars */
 }
 
 .sponsors-text p {
@@ -174,21 +175,46 @@
     color: #333;
 }
 
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
 .sponsors-image {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: flex;
     gap: 1.5rem;
-    justify-items: center;
-    align-items: center;
-    padding: 2rem 1rem;
+    animation: scroll 20s linear infinite;
+    will-change: transform;
 }
 
 .sponsors-image img {
-    display: block;
-    width: 100%;
-    max-width: 150px;
+    flex-shrink: 0;
+    width: 150px;
     height: auto;
     object-fit: contain;
+}
+
+/* Smooth scrolling animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
 }
 
 /* IPad Size */
@@ -279,28 +305,5 @@
     /*Footer (Mobile)*/
     .tradition {
         display: none;
-    }
-
-    /*Sponsors (Mobile)*/
-    .social-media a img {
-        height: 2rem;
-    }
-
-    .sponsors-image {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sponsors-text {
-        text-align: center;
-    }
-
-    .sponsors-text p {
-        font-size: 1.5rem;
-    }
-
-    .sponsors-image img {
-        max-width: 60%;
     }
   }
