@@ -66,6 +66,10 @@
     margin: 2rem;
 }
 
+.event-details {
+    text-align: center;
+}
+
 .family-friendly > div, .delicious-eats > div, .activities > div {
     display: flex;
     align-items: center;
