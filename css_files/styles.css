@@ -123,6 +123,7 @@ nav {
 /*hamburger menu*/
 .hamburger-menu {
     display: none;
+    cursor: pointer;
 }
 
 .hamburger-info{
