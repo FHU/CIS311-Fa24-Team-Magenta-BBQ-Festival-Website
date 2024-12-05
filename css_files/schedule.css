@@ -128,9 +128,9 @@
         font-size: 26px;
     }
 
-    .dropdown-button {
+    /* .dropdown-button {
         display: none;
-    }
+    } */
 }
 
 /* IPad Size */
@@ -140,11 +140,14 @@
         font-size: 24px;
         padding: 1rem;
     }
-    .dropdown-button{
+    
+    /* dropdown menu  */
+    /* .dropdown-button{
         background-color: var(--main-orange);
         border: none;
         cursor: pointer;
-    }
+    } */
+
     .left-schedule ul li {
         /* display: none; */
         font-size: 20px;
@@ -153,9 +156,9 @@
         transition: font-size 0.4s ease; 
     }
 
-    .dropdown-button:hover .left-schedule ul li{
+    /* .dropdown-button:hover .left-schedule ul li{
         display: block;
-    }
+    } */
 
     .left-schedule ul li:hover{
         font-size: 22px;
