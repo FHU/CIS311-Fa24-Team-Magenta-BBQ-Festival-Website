@@ -174,7 +174,6 @@
 
 
 /*Sponsors*/
-
 .sponsors-section {
     background-color: var(--main-cream);
     padding: 2rem;
@@ -327,6 +326,11 @@
     
     .lower-nav p {
         font-size: 25px;
+    }
+
+    /*Sponsors (Mobile)*/
+    .sponsors-text p {
+        font-size: 24px;
     }
 
     /*Footer (Mobile)*/
