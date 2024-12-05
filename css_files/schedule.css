@@ -19,6 +19,35 @@
     row-gap: 1rem;
 }
 
+.left-schedule-expand-menus {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.schedule-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.schedule-content.expanded {
+    max-height: 500px; /* Arbitrary large value to accommodate content */
+}
+
+.expand-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expand-class button {
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+}
+
 .left-schedule ul {
     padding: 1rem 3rem;
     display: flex;
@@ -28,10 +57,6 @@
 
 .left-schedule-bulletpoints{
     margin-left: 3rem;
-}
-
-.left-baseline-spacer {
-    padding: 25px;
 }
 
 .right-schedule {
@@ -129,13 +154,6 @@
         font-size: 24px;
         padding: 1rem;
     }
-    
-    /* dropdown menu  */
-    /* .dropdown-button{
-        background-color: var(--main-orange);
-        border: none;
-        cursor: pointer;
-    } */
 
     .left-schedule ul li {
         /* display: none; */
@@ -165,8 +183,6 @@
     .left-schedule {
         width: 100%;
     }
-
-    
 
     .right-schedule {
         width: 100%;
