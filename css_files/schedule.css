@@ -174,6 +174,12 @@
         background-color: var(--main-orange);
     }
 
+    .right-schedule ul li {
+        font-size: 18px;
+        padding-bottom: 2px;
+        width: 100%;
+    }
+
     .left-schedule {
         width: 100%;
     }
@@ -212,11 +218,6 @@
     }
 
     .left-schedule ul li {
-        font-size: 18px;
-        padding-bottom: 2px;
-    }
-
-    .right-schedule ul li {
         font-size: 18px;
         padding-bottom: 2px;
     }
