@@ -54,7 +54,7 @@
 }
 
 .left-schedule ul {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -63,6 +63,7 @@
 .left-schedule ul li {
     margin: 0.5rem 0rem;
     list-style: none;
+    font-size: 24px;
 }
 
 .right-schedule {
@@ -168,6 +169,11 @@
         display: block;
     }
 
+    
+    .left-schedule ul li {
+        font-size: 20px;
+    }
+
     .right-schedule h2 {
         margin: 0rem 0rem 0.75rem 0rem;
         color: white;
@@ -203,6 +209,7 @@
 /* Mobile Size */
 @media (max-width: 600px) {
     /* Schedule (Mobile) */
+
     .left-schedule h2{
         font-size: 24px;
         padding: 1rem;
@@ -218,8 +225,7 @@
     }
 
     .left-schedule ul li {
-        font-size: 18px;
-        padding-bottom: 2px;
+        font-size: 16px;
     }
 
     .right-baseline-spacer {
