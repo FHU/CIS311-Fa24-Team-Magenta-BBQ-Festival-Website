@@ -275,6 +275,11 @@
 /* Mobile Size */
 @media (max-width: 600px) {
     /*Index/Home (Mobile)*/
+
+    .home-main {
+        overflow-x: hidden;
+    }
+
     .video-image img{
         height: 200px;
     }
@@ -303,7 +308,6 @@
     .family-friendly h3, .delicious-eats h3, .activities h3, .event-details h3{
         font-size: 25px;
     }
-
     
     /*Lower Nav (Mobile)*/
     .lower-nav {
