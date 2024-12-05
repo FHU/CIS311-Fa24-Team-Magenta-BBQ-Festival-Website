@@ -122,6 +122,11 @@
     border-radius: 0.5rem;
     width: 10rem;
     height: 3rem;
+    transition: transform 0.3s ease;
+}
+
+.register-now:hover {
+    transform: scale(1.1);
 }
 
 .register-now p {
@@ -164,6 +169,11 @@
 
 .lower-nav img{
     width: 10rem;
+    transition: transform 0.3s ease;
+}
+
+.lower-nav img:hover {
+    transform: scale(1.1);
 }
 
 .lower-nav p{

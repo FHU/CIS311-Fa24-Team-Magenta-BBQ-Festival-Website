@@ -118,6 +118,11 @@ body {
 
 .menu-elements a{
     font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu-elements a:hover {
+    color: var(--secondary-orange);
 }
 
 /*hamburger menu*/
