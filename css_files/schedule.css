@@ -27,7 +27,7 @@
 }
 
 .schedule-content {
-    max-height: 0;
+    max-height: 1000px;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
 }
@@ -43,6 +43,7 @@
 }
 
 .expand-class button {
+    display: none;
     width: 50px;
     height: 50px;
     margin: 1rem;
@@ -157,6 +158,14 @@
     .schedule-main {
         flex-direction: column;
         align-items: center;
+    }
+
+    .schedule-content {
+        max-height: 0;
+    }
+
+    .expand-class button {
+        display: block;
     }
 
     .right-schedule h2 {
