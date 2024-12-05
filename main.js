@@ -1,5 +1,5 @@
 const hamburgerButton = document.querySelector(".hamburger-menu");
-const closeButton = document.querySelector(".close")
+const closeButton = document.querySelector(".close");
 const menuElements = document.querySelector(".hamburger-info");
 const overlay = document.querySelector(".overlay");
 
@@ -8,6 +8,11 @@ hamburgerButton.addEventListener("click", (e) => {
     e.preventDefault();
     menuElements.style.display = "flex"; 
     overlay.style.display = "flex";
+});
+
+// Close menu via close button
+closeButton.addEventListener("click", () => {
+    hideMenu();
 });
 
 // Close menu via overlay click

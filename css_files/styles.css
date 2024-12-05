@@ -118,11 +118,6 @@ body {
 
 .menu-elements a{
     font-size: 20px;
-    transition: font-size 0.3s ease; 
-}
-
-.menu-elements a:hover{
-    font-size: 21px;
 }
 
 /*hamburger menu*/
@@ -159,6 +154,10 @@ body {
 
 .close-cont img {
     width: 2rem;
+}
+
+.close {
+    cursor: pointer;
 }
 
 .overlay{
