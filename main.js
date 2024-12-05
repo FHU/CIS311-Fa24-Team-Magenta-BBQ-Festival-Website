@@ -4,6 +4,8 @@ const menuElements = document.querySelector(".hamburger-info");
 const overlay = document.querySelector(".overlay");
 
 
+
+
 // Open menu
 hamburgerButton.addEventListener("click", (e) => {
     e.preventDefault();
